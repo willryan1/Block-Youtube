@@ -13,6 +13,14 @@ Use a crontab to activate (MacOS or Linux)
 ```
 git clone https://github.com/willryan1/Block-Youtube.git
 ```
+
+To use just make the script an executable and run it.
+
+```
+chmod +x block_youtube.py
+sudo python3 block_youtube.py
+```
+Or you can set it up using crontab during a certain time interval
 ```
 sudo crontab -e
 ```
