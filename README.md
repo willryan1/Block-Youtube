@@ -22,7 +22,7 @@ sudo python3 block_youtube.py
 
 To enable youtube just run the script:
 ```
-sudo python3 Enable_youtube.py
+sudo python3 enable_youtube.py
 ```
 
 Or you can set it up using crontab during a certain time interval

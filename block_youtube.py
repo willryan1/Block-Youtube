@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Run this script as root
 import time
 from datetime import datetime as dt
@@ -18,5 +20,4 @@ with open(hosts_path, 'r+') as f:
             pass
         else:
             f.write(redirect + " " + website + '\n')
-
 
